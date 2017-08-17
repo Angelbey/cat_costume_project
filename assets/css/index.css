@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+}
+nav {
+  height: 80px;
+}
+
+h1 {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1.875em;
+  color: #323232;
+}
+h2 {
+  font-family:'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #00897f;
+  text-transform:uppercase;
+}
+h3 {
+  font-family:'PT Serif', serif;
+  font-size: 1em;
+  line-height:2em;
+  color: #323232;
+}
+p {
+  font-family:'PT Serif', serif;
+  font-size: .875em;
+  line-height: 1.75em;
+  color: #323232;
+}
+a {
+  font-family:'PT Serif', serif;
+  font-weight: bold;
+  font-size: 1em;
+  color:  #f26522;
+}
+nav h1 {
+  font-family:'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #323232;
+  float: left;
+  padding: 0 20px;
+}
+nav p {
+  font-family: 'PT Sans', sans-serif;
+  font-size: .9em;
+  color: 323232;
+  float: right;
+  padding: 0 20px;
+}
+#content1 {
+  padding-left: 350px;
+  padding-right: 350px;
+}
+.about1 {
+    width: 235px;
+    height: 190px;
+    padding: 10px 30px 70px 30px;
+    background-color: #eeeeee;
+    text-align: justify;
+    margin: 80px 30px 80px 340px;
+    float:left;
+}
+.about2 {
+    width: 235px;
+    height: 190px;
+    padding: 10px 30px 70px 30px;
+    background-color: #eeeeee;
+    text-align: justify;
+    margin: 80px 60px 80px 30px;
+    float:left;
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+footer h1 {
+  font-family:'PT Sans Narrow', sans-serif;
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #323232;
+}
+.footer {
+  background-color: #00897f;
+  height: 125px;
+  padding: 80px 30px 10px 30px;
+}
+#content2 {
+  height: 410px;
+  padding-left: 89px;
+  padding-bottom: 300px;
+  align-content: center;
+}
+.img-circle {
+    border-radius: 50%;
+    width: 250;
+    display: block;
+    float: left;
+    margin-right: 170px;
+}
+
+#content3 {
+  height: 450px;
+  background-color: #eeeeee;
+  padding-top: 30px;
+}
+.hours {
+    width: 235px;
+    height: 175px;
+    padding: 10px 30px 70px 30px;
+    background-color: white;
+    text-align: justify;
+    margin: 20px 30px 80px 340px;
+    float:left;
+    text-transform: uppercase;
+}
+.contact {
+    width: 235px;
+    height: 175px;
+    padding: 10px 30px 70px 30px;
+    background-color: white;
+    text-align: justify;
+    margin: 20px 60px 80px 30px;
+    float:left;
+    text-transform: uppercase;
+}
+#content4 {
+  height 300px;
+  text-align: center;
+}
+.large {
+  width: 100%;
+  display: inline-block;
+}
+/* On devices wider than 660px */
+@media(min-width: 660px) {
+}
+
+/* On devices wider than 940px */
+@media(min-width: 940px) {
+}
