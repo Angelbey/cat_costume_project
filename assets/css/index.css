@@ -52,8 +52,8 @@ nav p {
   padding: 0 20px;
 }
 #content1 {
-  padding-left: 35%;
-  padding-right: 35%;
+  padding-left: 350px;
+  padding-right: 350px;
 }
 .about1 {
     width: 235px;
@@ -93,7 +93,7 @@ footer h1 {
 }
 #content2 {
   height: 410px;
-  padding-left: 89px;
+  padding-left: 73px;
   padding-bottom: 300px;
   align-content: center;
 }
@@ -131,7 +131,7 @@ footer h1 {
     text-transform: uppercase;
 }
 #content4 {
-  height 300px;
+  height 250px;
   text-align: center;
 }
 .large {
