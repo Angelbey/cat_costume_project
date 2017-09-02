@@ -52,8 +52,8 @@ nav p {
   padding: 0 20px;
 }
 #content1 {
-  padding-left: 35%;
-  padding-right: 35%;
+  padding-left: 350px;
+  padding-right: 350px;
 }
 .about1 {
     width: 235px;
@@ -140,6 +140,10 @@ footer h1 {
 }
 /* styles for screen 1066px and under */
 @media screen and (max-width: 1066px) {
+  #content1 {
+    padding-right: 20%;
+    padding-left: 20%;
+  }
   .about1 {
     width: 50%;
     height: auto;
@@ -179,6 +183,18 @@ footer h1 {
     height: auto;
   }
 }
+/* styles for screen 406px and under */
+@media screen and (max-width: 406px){
+  nav ul  {
+    display: none;
+  }
+  nav h1 {
+    text-align: center;
+    float: none;
+  }
+
+}
+
 
 /* On devices wider than 660px */
 @media(min-width: 660px) {
