@@ -100,7 +100,7 @@ footer h1 {
 .img-circle {
     border-radius: 50%;
     width: 250;
-    display: block;
+    display: flex;
     float: left;
     margin-right: 170px;
 }
